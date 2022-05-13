@@ -1,7 +1,8 @@
 import Slide from './slide.js';
 
-//Instanciando class Slide
 const slide = new Slide('.slide', '.slide-wrapper');
-slide.init()
+slide.init();
+console.log(slide);
 
-/* slide.changeSlide(0) */
+slide.changeSlide(3);
+slide.activePrevSlide();
